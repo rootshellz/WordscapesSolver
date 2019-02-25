@@ -1,5 +1,6 @@
-<h1>Wordscape Solver</h1>
-<h2>by <a href="https://github.com/rootshellz" target=”_blank”>rootshellz</a></h2>
+<h1><a href="http://wordscapessolver.rootshellz.com">Wordscape Solver</a></h1>
+<img src="https://images-na.ssl-images-amazon.com/images/I/81cd6JSC0KL._SY355_.png">
+<br>
 <a href="https://github.com/rootshellz/WordscapesSolver" target=”_blank”>https://github.com/rootshellz/WordscapesSolver</a>
 
 <br><br>
