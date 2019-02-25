@@ -11,8 +11,8 @@ def index():
     if request.params.get("solvable") and request.params.get("available_chars"):
         solvable = request.params.get("solvable").lower().replace("-", "_")
         available_chars = sorted(request.params.get("available_chars").lower())
-        possible_words = wordscapes_solver.solve(solvable, available_chars, word_list_file)
-        return template("results", {"solvable": request.params.get("solvable").upper(),\
+        possible_words = sorted(wordscapes_solver.solve(solvable, available_chars, word_list_file))
+        return template("results", {"solvable": solvable.upper(),\
                                     "available_chars": request.params.get("available_chars").upper(),\
                                     "possible_words": possible_words})
     else:
