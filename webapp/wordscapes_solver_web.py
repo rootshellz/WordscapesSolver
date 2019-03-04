@@ -3,7 +3,7 @@ sys.path.append("..")
 import wordscapes_solver
 from bottle import run, route, request, static_file, template
 
-word_list_file = "../words_alpha.txt"
+word_list_file = "../words.txt"
 
 
 @route("/")

@@ -43,5 +43,5 @@ def check_possible_word_candidates_against_dictionary(possible_word_candidates, 
 
 if __name__ == "__main__":
     input_solvable, input_available_chars = get_input()
-    for possible_word in solve(input_solvable, input_available_chars, word_list_file="words_alpha.txt"):
+    for possible_word in solve(input_solvable, input_available_chars, word_list_file="words.txt"):
         print(possible_word)
